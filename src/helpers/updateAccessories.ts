@@ -12,7 +12,7 @@ type HandlerProps = {
   toggleUpdate: (state: boolean) => void;
 };
 
-const MS_PER_MINUTE = 60000;
+const MS_PER_MINUTE = 5000;
 
 export const updateAccessoriesHandler = (props: HandlerProps) => {
   const { cache, sessions, sensor, log, toggleUpdate } = props;
